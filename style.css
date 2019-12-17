@@ -46,5 +46,36 @@
 }
 .first-nav-link {
   text-decoration: none;
+  color: rgb(28, 28, 136);
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+.first-nav-link span {
+  font-size: 0.3rem;
+  color: black;
+}
+.first-nav-link i {
+  font-size: 1rem;
+  margin-right: 1.3rem;
+}
+
+.search {
+  grid-column: 8/10;
+  grid-row: 2/3;
+}
+.search-form {
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+}
+.search-input {
+  grid-column: 3/-1;
+  grid-row: 1/2;
+  padding: 0.3rem 0.4rem;
+  font-size: 1.3rem;
+  border: none;
+  border-bottom: 0.1rem solid rgb(28, 28, 136);
+  outline: none;
 }
 /*end of navbar*/
