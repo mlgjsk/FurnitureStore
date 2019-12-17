@@ -78,4 +78,10 @@
   border-bottom: 0.1rem solid rgb(28, 28, 136);
   outline: none;
 }
+.search-btn {
+  grid-column: 10/-1;
+  grid-row: 1/2;
+  border: none;
+  background-color: transparent;
+}
 /*end of navbar*/
