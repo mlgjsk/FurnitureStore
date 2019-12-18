@@ -30,7 +30,7 @@ body {
 
 .social-icon {
   font-size: 1.5rem;
-  color: rgb(28, 28, 136);
+  color: #756091;
   transition: all 0.2s;
 }
 
@@ -50,7 +50,7 @@ body {
 }
 .first-nav-link {
   text-decoration: none;
-  color: rgb(28, 28, 136);
+  color: #756091;
   display: inline-block;
   font-size: 1.5rem;
   width: 100%;
@@ -58,7 +58,7 @@ body {
 }
 .first-nav-link span {
   font-size: 0.3rem;
-  color: black;
+  color: #756091;
 }
 .first-nav-link i {
   font-size: 1rem;
@@ -79,7 +79,7 @@ body {
   padding: 0.3rem 0.4rem;
   font-size: 1.3rem;
   border: none;
-  border-bottom: 0.1rem solid rgb(28, 28, 136);
+  border-bottom: 0.1rem solid #756091;
   outline: none;
 }
 .search-btn {
@@ -111,8 +111,8 @@ body {
   transition: all 1s;
 }
 .second-nav-item:hover .second-nav-link {
-  background-color: #cfc6f4;
-  color: rgb(32, 32, 32);
+  background-color: #756091;
+  color: white;
 }
 
 .dropdown {
