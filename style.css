@@ -16,7 +16,7 @@ body {
     minmax(6rem, 1fr)
     repeat(8, minmax(min-content, 16rem))
     minmax(6rem, 1fr);
-  grid-template-rows: repeat(3, min-content);
+  grid-template-rows: repeat(3, min-content) 70vh;
   grid-row-gap: 1.6rem;
 }
 .social-icons {
@@ -163,3 +163,45 @@ second-nav-item:first-child {
 }
 
 /*end of navbar*/
+
+/*banner*/
+.banner {
+  grid-column: 2/10;
+  grid-row: 4/5;
+  background-color: #756091;
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner-heading {
+  font-size: 5rem;
+  color: white;
+  margin-bottom: 6rem;
+}
+.banner-btn {
+  width: 16rem;
+  height: 3rem;
+  background-color: white;
+  color: #756091;
+  font-size: large;
+  border: none;
+}
+.banner-btn:hover {
+  background-color: #756091;
+  color: white;
+}
+.banner-text-1 {
+}
+.banner-text-2 {
+}
+
+.slideshow {
+  display: none;
+}
+/*end of banner*/
