@@ -12,6 +12,38 @@
 </head>
 
 <body>
+    <!-- modal box -->
+    <input type="checkbox" id="show-hide-forms" hidden>
+    <div class="forms-wrapper">
+        <label for="show-hide-forms" class="x-btn">&#10005;</label>
+        <input type="checkbox" id="show-form" hidden>
+        <div class="show-btns-wrapper">
+            <label for="show-form" class="show-form-btn show-signup-form">Sign Up</label>
+            <label for="show-form" class="show-form-btn show-login-form">Log In</label>
+        </div>
+
+        <form class="signup-form">
+            <h3 class="form-heading">Sign Up</h3>
+            <div class="fullname-inputs-wrapper">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Second Name">
+            </div>
+            <input type="text" class="form-input" placeholder="Username">
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="SIGN UP" class="form-btn">
+        </form>
+
+        <form class="login-form">
+            <h3 class="form-heading">Log In</h3>
+            <input type="email" class="form-input" placeholder="Email Address">
+            <input type="password" class="form-input" placeholder="Password">
+            <input type="submit" value="LOG IN" class="form-btn">
+        </form>
+    </div>
+    <!-- end of modal box -->
+
+
     <div class="container">
         <!--social media-->
         <ul class="social-icons">
@@ -231,6 +263,18 @@
             <img src="images/gallery-img-12.jpeg" class="gallery-img gallery-img-12">
         </section>
         <!-- end of gallery -->
+
+        <!-- contact -->
+        <section class="contact">
+            <h1 class="contact-heading">Join us and be in the know</h1>
+            <form class="contact-form">
+                <input type="text" class="contact-input" placeholder="Enter email address">
+                <input type="submit" class="contact-btn" value="Sign Up">
+            </form>
+        </section>
+        <!-- end of contact -->
+
+
     </div>
 
 </body>
