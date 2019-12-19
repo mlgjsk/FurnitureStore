@@ -168,7 +168,6 @@ second-nav-item:first-child {
 .banner {
   grid-column: 2/10;
   grid-row: 4/5;
-  background-color: #756091;
 }
 .banner-content {
   position: absolute;
@@ -181,7 +180,8 @@ second-nav-item:first-child {
 
 .banner-heading {
   font-size: 5rem;
-  color: white;
+  color: #756091;
+  text-shadow: 2px 2px 6px rgb(54, 54, 54);
   margin-bottom: 6rem;
 }
 .banner-btn {
@@ -190,18 +190,77 @@ second-nav-item:first-child {
   background-color: white;
   color: #756091;
   font-size: large;
-  border: none;
+  border: 2px solid #756091;
 }
 .banner-btn:hover {
   background-color: #756091;
   color: white;
 }
-.banner-text-1 {
-}
-.banner-text-2 {
-}
 
 .slideshow {
-  display: none;
+  height: 100%;
+  overflow: hidden;
+}
+.slideshow-wrapper {
+  display: flex;
+  width: 400%;
+  height: 100%;
+  position: relative;
+  animation: slideshow 20s infinite;
+}
+.slide {
+  max-width: 1055px;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 /*end of banner*/
+@keyframes slideshow {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0;
+  }
+  15% {
+    left: -100%;
+  }
+  20% {
+    left: -100%;
+  }
+  25% {
+    left: -200%;
+  }
+  30% {
+    left: -200%;
+  }
+
+  40% {
+    left: -200%;
+  }
+  45% {
+    left: -300%;
+  }
+
+  55% {
+    left: -300%;
+  }
+  60% {
+    left: -200%;
+  }
+  70% {
+    left: -200;
+  }
+  75% {
+    left: -100%;
+  }
+  85% {
+    left: -100;
+  }
+
+  90% {
+    left: 0;
+  }
+}
